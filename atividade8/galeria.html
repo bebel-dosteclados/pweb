@@ -10,7 +10,12 @@
             background: #d6d6d6
         }
 
-    .container{
+        .container{
+        display:flex;
+
+        }
+
+    .noticia{
     font-family: "opensans-regular", arial, serif;
         background-color:rgb(255, 255, 255);
         font: size 16px;
@@ -24,14 +29,11 @@
         margin:20px;
         float:left;
         flex-wrap:wrap;
-        display:flex;
     }
 
-    .container img
+    .noticia img
     {
         justify-content: center;
-        display:flex;
-        flex-direction: column;
         position:absolute;
         width:195px;
         height:150px;
@@ -44,12 +46,15 @@
 
 </head>
 <body>
-    <div class="container" >
+    <div class="container">
+
+        <div class="noticia">
         
-    <img src="imagem2.png">
-        <br>
-    <p>Resumo</p>
-        
+            <img src="imagem2.png">
+            <br>
+            <p>Resumo</p>
+
+        </div>
     
     </div>
 </body>
