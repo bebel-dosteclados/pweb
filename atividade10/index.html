@@ -7,10 +7,9 @@
 </head>
 <style>
 .menu{
-    background: tan;
-    width:100%;
-    height:40%;
     float:center;
+    display: flex;
+    flex-direction: column;
 }
 
 a:link{ /* não visitados*/
@@ -29,6 +28,15 @@ a:active{ /* não visitados*/
     color:rgb(125, 123, 255);
 
 }
+menu.nav{
+    background: tan;
+    width:100%;
+    height:40%;
+}
+menu.img{
+    width:70px;
+    height:70px;
+}
 </style>
 <body>
     <nav class="menu">
@@ -37,9 +45,10 @@ a:active{ /* não visitados*/
         <a href="https://www.techtudo.com.br/">techtudo</a>
         <a href="http://www.maujor.com">maujor</a>
 
-    </nav>
-    <header>
+        </nav>
+    <header class="menu">
         pintocoptero
+        <img src="robloxxjpg-1.jpg" alt="roblox">
     </header>
     <footer>
         pintocoptero
